@@ -49,11 +49,13 @@ Implements a standard 5-stage pipeline: Instruction Fetch (IF), Decode (ID), Exe
 
 ## Repository Structure
 
-├── Single-cycle MIPS Processor.zip/ # Single-cycle processor implementation and testbenches
-├── Multi-Cycle MIPs Processor.zip/ # Pipelined (multi-cycle) processor implementation and testbenches
-├── images/ # Block diagram and architectural illustrations
-├── LICENSE # MIT License
-└── README.md # Project documentation
+```
+├── Single-cycle MIPS Processor.zip/     # Single-cycle processor implementation and testbenches  
+├── Multi-Cycle MIPs Processor.zip/      # Pipelined (multi-cycle) processor implementation and testbenches  
+├── images/                              # Block diagram and architectural illustrations  
+├── LICENSE                              # MIT License  
+└── README.md                            # Project documentation  
+```
 
 markdown
 Copy
