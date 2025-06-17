@@ -57,10 +57,6 @@ Implements a standard 5-stage pipeline: Instruction Fetch (IF), Decode (ID), Exe
 └── README.md                            # Project documentation  
 ```
 
-markdown
-Copy
-Edit
-
 ## Tools Used
 
 - VHDL – For hardware behavior modeling  
