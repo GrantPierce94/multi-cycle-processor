@@ -2,7 +2,7 @@
 
 This project includes both single-cycle and pipelined (multi-cycle) implementations of a MIPS-like processor written in VHDL. Developed as part of a computer architecture course, the design simulates instruction fetch, decode, execute, memory access, and write-back stages. Testbenches are included for verification and timing analysis.
 
-In addition to architectural accuracy, this project was designed with **secure processor architecture principles** in mind — ensuring every control path and memory access adheres to foundational best practices in hardware trust boundaries, input validation, and error isolation.
+In addition to architectural accuracy, this project was designed with **secure processor architecture principles** in mind. This ensures every control path and memory access adheres to foundational best practices in hardware trust boundaries, input validation, and error isolation.
 
 ## Architecture Diagram
 
@@ -21,9 +21,9 @@ In addition to architectural accuracy, this project was designed with **secure p
 ## Security-Focused Design Elements
 
 - **Memory Isolation Simulation**: Memory modules were implemented with strict address control to simulate boundary enforcement and mitigate unintended read/write behaviors.
-- **Control Flow Integrity (CFI)**: The control unit was carefully designed to prevent unintended execution branching — modeling core ideas behind CFI as seen in modern processor defenses.
+- **Control Flow Integrity (CFI)**: The control unit was carefully designed to prevent unintended execution branching, modeling core ideas behind CFI as seen in modern processor defenses.
 - **Hazard Management = Attack Surface Reduction**: The pipelined design includes hazard detection, which was approached as a vector for race condition mitigation and speculative execution concerns (e.g., modeled analogs to Spectre-style behaviors).
-- **Minimal Trusted Computing Base (TCB)**: All control signals and instruction paths were minimized to only necessary permissions — following least privilege principles in hardware-level access.
+- **Minimal Trusted Computing Base (TCB)**: All control signals and instruction paths were minimized to only necessary permissions; following least privilege principles in hardware-level access.
 
 These secure design practices reflect the foundation of **cybersecurity-aware hardware development**, where understanding system internals is key to defending them.
 
