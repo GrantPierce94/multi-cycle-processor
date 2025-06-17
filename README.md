@@ -2,10 +2,10 @@
 
 This project includes a VHDL-based simulation of a single-cycle and pipelined MIPS-like processor designed for educational purposes. The design includes instruction fetch, decode, execute, memory access, and writeback stages.
 
-## 🧠 Architecture Diagram
+## Architecture Diagram
 ![Processor Diagram](./images/processor-diagram.png)
 
-## 💾 Features
+## Features
 - Fully functional control unit
 - ALU with standard operations
 - Register file with read/write control
@@ -13,7 +13,7 @@ This project includes a VHDL-based simulation of a single-cycle and pipelined MI
 - Instruction + data memory modules
 - Testbenches for key instruction types
 
-## 📂 Structure
+## Structure
 - `single-cycle/`: Single-cycle implementation and testbenches
 - `pipelined/`: Pipelined implementation and testbenches
 - `images/`: Block diagrams and screenshots
